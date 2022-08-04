@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+.App{
+ 
+  min-height: 100vh;
+}
+#Light{
+  background-color: hsl(0, 0%, 90%);
+}
+#Dark{
+  background-color: hsl(209, 23%, 22%);
+}
+.button{
+ 
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-weight: 900;
+  cursor: pointer;
+ 
+}
+#Dark .button{
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+
+h4{
+  
+  font-size:18px;
+  padding: 5px;
+  color: rgb(63, 75, 43);
+}
+#Dark h4{
+  color: white;
+}
+h2{
+  width:17vw;
+  padding: 10px;
+  font-size:25px;
+  color: rgb(46, 45, 45);
+}
+#Dark h2{
+  color:white
+}
+
+.input{
+  width:370px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-inline-start: 20px;
+}
+#Dark .input{
+  background-color: hsl(207, 24%, 27%);
+  color: white;
+}
+#Dark ::placeholder{
+  color: white;
+}
+select{
+  width: 250px;
+  height: 50px;
+  float: right;
+  border-radius: 5px;
+  padding-inline-start: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  
+ 
+}
+#Dark select{
+  background-color: hsl(207, 24%, 27%);
+  color: white;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.countries-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.card-region{
+  
+  margin: 40px;
+  background-color:white;
+  box-shadow: 0 0 5px gray;
+ 
+  
+}
+#Dark .card-region{
+  background-color: hsl(207, 24%, 27%);
+  color: white;
+}
+#Dark .header{
+  background-color: hsl(207, 24%, 27%);
+  color: white;
+}
+.input-region{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline-start: 3vw;
+  padding-inline-end: 3vw;
+  width: 100%;
+ 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 3vw;
+  padding-inline-end: 3vw;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 5px gray;
+  height: 80px;
+  margin-bottom: 40px;
+
+}
+.light{
+  background-color: hsl(0, 0%, 90%);
+}
+.main-country{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.back{
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+  box-shadow:0 0 5px gray; 
+  margin-left: 50px;
+}
+#Dark .back{
+  background-color: hsl(207, 24%, 27%);
+  color: white;
+}
